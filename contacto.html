@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recicla en Merlo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/fbb4bac4d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+   
+         <header>
+         <nav>
+         <div id="main">
+          
+          <div>
+                          <a href="index.html"><img src="imagenes/logoacumar.svg"
+                          alt="logo" class="logo"></a>
+              
+          </div>
+             <input type="checkbox" id="check">
+             <label for="check" class="bar-btn">
+                <i class="fas fa-bars"></i>
+                 
+             </label>
+           
+               <ul class="nav-menu">
+                   <li><a href="#"> Inicio </a> </li>
+                   <li><a href="#conocenos2"> Conocenos </a> </li>
+                   <li><a href="aprende.html"> Aprende a reciclar </a> </li>
+                   <li><a href="contacto.html"> Contacto </a> </li>
+               </ul>
+    
+            
+            </nav>
+           </div>
+          
+      </header>
+
+   <!--ACA EMPIEZA SECCION CONTACTO-->
+    <div id="contacto">
+    <div class="sumate">
+    <h1 class="animate__animated animate__backInDown">Contacto</h1>
+    <h2 class="titulosH2">Sumate</h2>
+    <img class="ilus" src="imagenes/sumateimg2.svg" alt="">
+    <p>Si te interesa la mejora del hábitat, salud y educación, Acumar junto a Merlo Recicla queremos invitarte a que te sumes al equipo y a su vez lograr cuidar y preservar el ambiente en el que vivimos.<br>Podes colaborar siendo Reciclador, generamos trabajo a los cartoneros de la Cooperativa, teniendo un ingreso económico en base a ello ó como Ayudante en la organización y jornadas que realizamos, siendo parte de la recepción de todo aquel vecino/a que asista, registrando sus datos, separando residuos, entre otros.</p>
+    <a class="boton" href="https://api.whatsapp.com/send?phone=541154674781&fbclid=IwAR1U2QqRvgF7B1KOJ-DvmyCoVmwRlKOjiXOZxgTF4SUc_pF_BKqmLm9JfKk" class="button" target="_blank">Me quiero sumar</a>
+       
+    <h2 class="txt1">¿Tenes residuos reciclables en tu hogar?</h2>
+    <p class="txt2">Completá el formulario así podremos contactarnos con vos y acordar el día y la hora lo más pronto posible. <br><strong>*Recordá que el domicilio tiene que estar dentro del Partido de Merlo ya que, por el momento, la Cooperativa sólo se maneja dentro de esta zona</strong></p>
+    <a class="boton" href="https://docs.google.com/forms/d/e/1FAIpQLSeSFr0dL0YeTk3CJy7ZD5QBY-BfiQTQK7zqWdMwfeizqmSaXA/viewform?usp=sf_link" class="button" target="_blank">¡Necesito que retiren mis residuos!</a>
+            
+    </div>
+    
+    <div class="ubicacion">
+    <h2 class="titulosH2">Punto Verde</h2>
+    <p>Tambien podes dejarnos tus reciclables en nuestro Punto Verde: Barrio Procrear, calles Matheu y Olaya</p>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.780672510014!2d-58.741548684768205!3d-34.68548458043836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bceaa9902c09a5%3A0x6cca85426b70a390!2sOlaya%20%26%20Matheu%2C%20Merlo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1625177822785!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    <p class="txt3"> Si tenés alguna duda o queres contactarnos por otra causa, no dudes en dejarnos tu mensaje.</p>
+    
+     <form action="" method="" id="un_formulario">
+    <div class="grid">
+      <label for="nombre" class="titulo">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" class="campo" maxlength="15" pattern="[A-Za-z]{2,15}" title="Introduzca su nombre" placeholder="Introduzca su nombre" required>
+      <label for="tel" class="titulo">Teléfono:</label>
+       <input type="tel" name="tel" id="tel" class="campo" pattern="[0-9]{8}" title="Introduzca 8 cifras" placeholder="Introduzca 8 cifras" required>
+<!--  ACLARACIÓN: Trate de validarlo con 10 cifras de esta forma pero siempre me ponia error, por eso mismo deje las 8 cifras q ya funcionaba <input type="tel" name="tel" id="tel" class="campo" pattern="[0-11]{10}" title="Introduzca 10 cifras" placeholder="Introduzca 10 cifras" required>-->
+      <span class="titulo">Indique su edad</span>
+      <span class="campo">
+        <input type="checkbox" id="mayor" name="mayor" value="mayor">
+        <label for="mayor"> Mayor de 18 años</label>
+      </span>
+      <span class="campo">
+        <input type="checkbox" id="menor" name="menor" value="menor">
+        <label for="menor"> Menor de 18 años</label>
+      </span>
+    </div>
+    <select class="form-select" aria-label="Default select example">
+  <option selected disabled>Seleccione localidad</option>
+  <option value="1">CABA</option>
+  <option value="2">GBA</option>
+</select>
+    
+     <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" title="Introduzca su Email" placeholder="Introduxca su email" required>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" cols="100"></textarea>
+</div>
+ 
+ <span>
+      <p id="mensaje_error"></p>
+        <input type="submit" name="send" id="send" value="Enviar">
+        <input type="reset" name="clear" id="clear" value="Borrar">
+      </span>
+  </form> 
+    
+    <h4 class="txt4"> Muchas gracias por ser parte de este proyecto :) </h4>
+    
+    
+    </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="form.js"></script>
+    
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>Nosotros</h2>
+          <div class="content">
+            <p>Nuestras redes y medios de comunicación</p>
+            <div class="social">
+              <a target="_blank" href="https://www.facebook.com/cooperativamerlorecicla"><span class="fab fa-facebook-f"></span></a>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=541154674781&fbclid=IwAR1U2QqRvgF7B1KOJ-DvmyCoVmwRlKOjiXOZxgTF4SUc_pF_BKqmLm9JfKk"><span class="fab fa-whatsapp-square"></span></a>
+              <a target="_blank" href="https://www.instagram.com/cooperativamerlorecicla/"><span class="fab fa-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="center box">
+          <h2>Ubicación</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Olaya y Matheu. Merlo, Provincia de Buenos Aires</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+54 11 5467-4781</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">cooperativamerlorecicla@gmail.com</span>
+            </div>
+          </div>
+        </div>
+</footer>
+</body></html>
